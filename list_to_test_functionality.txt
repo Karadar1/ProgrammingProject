@@ -1,0 +1,67 @@
+    AgriculturalSurface surface1;
+    surface1.name = "Surface 1";
+    surface1.plantType = "cartofi";
+    surface1.surface = 10;
+
+    AgriculturalSurface surface2;
+    surface2.name = "Surface 2";
+    surface2.plantType = "cartofi";
+    surface2.surface = 5;
+
+    AgriculturalSurface surface3;
+    surface3.name = "Surface 3";
+    surface3.plantType = "rosii";
+    surface3.surface = 31.5;
+
+    AgriculturalSurface surface4;
+    surface4.name = "Surface 4";
+    surface4.plantType = "conopida";
+    surface4.surface = 123.2;
+
+    manager.addSurface(surface1);
+    manager.addSurface(surface2);
+    manager.addSurface(surface3);
+    manager.addSurface(surface4);
+
+    Production production1;
+    production1.productionId = 1;
+    production1.surfaceName = "Surface 1";
+    production1.quantity = 5;
+    production1.period = 10;
+
+    Production production2;
+    production2.productionId = 2;
+    production2.surfaceName = "Surface 2";
+    production2.quantity = 5;
+    production2.period = 10;
+
+    Production production3;
+    production3.productionId = 3;
+    production3.surfaceName = "Surface 3";
+    production3.quantity = 235.215;
+    production3.period = 240.5345;
+
+    Production production4;
+    production4.productionId = 4;
+    production4.surfaceName = "Surface 3";
+    production4.quantity = 523.5373;
+    production4.period = 114.52362;
+
+    Production production5;
+    production5.productionId = 5;
+    production5.surfaceName = "Surface 4";
+    production5.quantity = 413.2627;
+    production5.period = 633.6463;
+
+    Production production6;
+    production6.productionId = 6;
+    production6.surfaceName = "Surface 4";
+    production6.quantity = 173.2435;
+    production6.period = 253.2;
+
+    manager.addProduction(production1);
+    manager.addProduction(production2);
+    manager.addProduction(production3);
+    manager.addProduction(production4);
+    manager.addProduction(production5);
+    manager.addProduction(production6);
